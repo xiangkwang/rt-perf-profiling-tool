@@ -277,9 +277,22 @@ node nmonToHtml.js XXX XXX
 
 <div style="width: 100%; text-align: center;"><img src="./doc/images/components.png" style="width: 800px"></img></div>
 
-> Figure 2.6.2 Components
+> Figure 2.6.3 Components
 >
-> When the .nmon file is too large, it takes a long time to generate the HTML file. Please wait patiently (it takes about 90 MB / minute). 
+> Check "Code Compression" to indicate that the customized file is compressed: "echart.min.js". 
+
+<div style="width: 100%; text-align: center;"><img src="./doc/images/compress.png" style="width: 800px"></img></div>
+
+> Figure 2.6.4 Compress
+>
+> The main dependency file for the HTML is jquery-3.4.1.min.js. Version 3.4.1 is recommended. 
+> Download address: https://jquery.com/download/. Click "Download the compressed, production jQuery 3.4.1" on the page to perform the download. 
+
+<div style="width: 100%; text-align: center;"><img src="./doc/images/jquery.png" style="width: 800px"></img></div>
+
+> Figure 2.6.5 JQuery Download
+>
+> When the .nmon file is too large, it takes a long time to generate the HTML file. Please wait patiently. 
 
 ## <a name="2.7"/>2.7 Display html page based on eCharts
 
